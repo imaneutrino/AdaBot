@@ -1,3 +1,5 @@
+# Possible properties to Register in unities, goes here
+# Each new field has to be added in the following array
 key_name = [
     "titulo",
     "valor",
@@ -10,5 +12,6 @@ key_name = [
     "parking_spaces",
     "category",
     "conditions",
+    "display_order",
     "cub"
 ]

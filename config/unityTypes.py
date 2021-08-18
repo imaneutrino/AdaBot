@@ -36,6 +36,7 @@ unity_status = {
 }
 
 unity_category = {
+    "Selecione Uma Categoria": "",
     "Cobertura": 1,
     "Decorado": 2,
     "Diferenciado": 3,

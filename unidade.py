@@ -7,7 +7,7 @@ from helpers.convertUnityStringToInteger import get_unity_category_through_key, 
 
 
 def register_unidade(empreendimento_id, bloco_id, tipo_id, token, filename):
-    file = pandas.read_excel(filename, index_col=None, na_values=['NA'], usecols="G:Q")
+    file = pandas.read_excel(filename, index_col=None, na_values=['NA'], usecols="H:S")
     unities = file.to_dict("records")
 
     final_dict = []
